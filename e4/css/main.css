@@ -1,0 +1,54 @@
+body {
+  background-color: crimson;
+  margin: 0;
+  font-size: 32px;
+}
+p {
+  font-family: sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: pink;
+  font-weight: bold;
+  text-align: center;
+  line-height: .1em;
+}
+.bigger {
+  font-size: 2.5em;
+  padding-top: .2em;
+}
+div {
+  margin-top: 40vh;
+}
+.mobile-only {
+  display: none;
+}
+
+@media only screen and (max-width: 768px) {
+  body {
+    background-color: pink;
+  }
+  p {
+    color: crimson;
+  }
+  .mobile-only {
+    display: block;
+  }
+  .desktop-only {
+    display: none;
+  }
+}
+
+/* @media only screen and (min-width: 768px) {
+  body {
+    background-color: pink;
+  }
+  p {
+    color: crimson;
+  }
+  .mobile-only {
+    display: block;
+  }
+  .desktop-only {
+    display: none;
+  }
+} */
