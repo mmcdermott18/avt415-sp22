@@ -2,9 +2,9 @@ body {
   background-color: crimson;
   margin: 0;
   font-size: 32px;
+  font-family: 'Noto Serif Display', serif;
 }
 p {
-  font-family: sans-serif;
   text-transform: uppercase;
   letter-spacing: 1px;
   color: pink;
